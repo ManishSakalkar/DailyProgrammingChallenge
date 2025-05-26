@@ -13,6 +13,7 @@ public class GroupofString {
         Map<Integer, List<String>> mapofWords = words.stream()
                 .collect(Collectors.groupingBy(String::length));
         System.out.println(mapofWords);
+        //Output: {1=[a, n], 2=[aa, bb], 4=[cccc]}
 
     }
 }
